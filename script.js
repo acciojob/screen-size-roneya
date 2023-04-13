@@ -3,5 +3,5 @@ function showDimensions() {
         var height = window.innerHeight;
         document.getElementById("dimensions").innerHTML = "Width: " + width + " and Height: " + height;
       }
-      window.onload = showDimensions; // Show dimensions on page load
+      window.onload = showDimensions; 
       window.onresize = showDimensions;
